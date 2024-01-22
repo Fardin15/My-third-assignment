@@ -1,3 +1,21 @@
 .manrope-font{
     font-family: 'Manrope', sans-serif;
 }
+
+.grid-one{
+    background-image: url(./Images/2.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.grid-two{
+    background-image: url(./Images/3.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.grid-three{
+    background-image: url(./Images/4.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
