@@ -3,7 +3,7 @@
 }
 
 .grid-one{
-    background-image: url(./Images/2.png);
+    background-image:url(./Images/2.png);
     object-fit: cover;
     background-repeat: no-repeat;
 }
