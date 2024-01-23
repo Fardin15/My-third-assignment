@@ -184,15 +184,15 @@
                     </p>
                 </div>
                 <!-- grid -->
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 max-w-[570px] lg:max-w-[1170px]">
                     <!-- item one -->
                     <div class="grid-one px-10 pt-[50px] pb-3 text-white rounded-3xl">
                         <h1 class="text-2xl font-extrabold mb-4">
                             Junior Program
                         </h1>
                         <p class="text-lg font-medium mb-6">
-                            Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elitenim sagittis turpis in
+                            magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
                             congue sed et in.
                         </p>
                         <button
@@ -219,8 +219,8 @@
                             Professional Program
                         </h1>
                         <p class="text-lg font-medium mb-6">
-                            Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elitenim sagittis turpis in
+                            magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
                             congue sed et in.
                         </p>
                         <button
@@ -472,13 +472,60 @@
                         in sit nullam proin.
                     </p>
                 </div>
-                <div class="flex lg:flex-row gap-2">
-                    <div class="">
-
+                <div class="flex flex-col lg:flex-row gap-6">
+                    <div class="flex lg:flex-row gap-2">
+                        <div class="shadow-md shadow-gray-500 p-5 rounded-2xl">
+                            <div class="bg-red-300 sm:w-[285px] py-8 pl-8 pr-20 rounded-2xl mb-6 text-black">
+                                <img class="w-12 h-12 mb-6" src="Images/Group 1171275317.png" alt="">
+                                <p class="font-normal text-base mb-2">Phone Number :</p>
+                                <p class="font-normal text-base">(+62) 123-321-543</p>
+                            </div>
+                            <div class="bg-red-300 sm:w-[285px]  py-8 pl-8 pr-20 rounded-2xl mb-6 text-black">
+                                <img class="w-12 h-12 mb-6" src="Images/Group 1171275318.png" alt="">
+                                <p class="font-normal text-base mb-2">Email :</p>
+                                <p class="font-normal text-base">hockeys@support.com</p>
+                            </div>
+                            <div class="bg-red-300 sm:w-[285px]  py-8 pl-8 pr-20 rounded-2xl text-black">
+                                <img class="w-12 h-12 mb-6" src="Images/Group 1171275321.png" alt="">
+                                <p class="font-normal text-base mb-2">Location :</p>
+                                <p class="font-normal text-base">152/1 Mohakhali Wireless Gate</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="">
-
-
+                    <!-- form div -->
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                        <div class="text-black">
+                            <h1 class="mb-4 font-bold text-xl">Your Name</h1>
+                            <input class="bg-red-200 sm:w-[335px] lg:w-[320px] py-5 pl-5 pr-[130px] rounded-xl outline-none cursor-pointer" type="name" placeholder="Enter your full name">
+                        </div>
+                        <div class="text-black">
+                            <h1 class="mb-4 font-bold text-xl">Your Email</h1>
+                            <input class="bg-red-200 sm:w-[335px] lg:w-[320px] py-5 pl-5 pr-[130px] rounded-xl outline-none cursor-pointer" type="email" placeholder="Enter your email">
+                        </div>
+                        <div class="text-black">
+                            <h1 class="mb-4 font-bold text-xl">Your Subject</h1>
+                            <input class="bg-red-200 sm:w-[335px] lg:w-[320px] py-5 pl-5 pr-[130px] rounded-xl outline-none cursor-pointer" type="text" placeholder="Enter your subject">
+                        </div>
+                        <div class="text-black">
+                            <h1 class="mb-4 font-bold text-xl">Your Number</h1>
+                            <input class="bg-red-200 sm:w-[335px] lg:w-[320px] py-5 pl-5 pr-[130px] rounded-xl outline-none cursor-pointer" type="tel" placeholder="Enter your number">
+                        </div>
+                        <div class="text-black lg:col-span-2">
+                            <h1 class="mb-4 font-bold text-xl">Message</h1>
+                            <textarea class="bg-red-200 sm:w-[335px] h-[300px] py-5 pl-5 pr-[130px] rounded-xl outline-none cursor-pointer lg:w-full mb-8" placeholder="Write your message" name="message" id="message" cols="" rows=""></textarea>
+                        </div>
+                        <div class="mx-auto lg:col-span-2 ">
+                            <button class="btn bg-red-500 sm:w-[335px] lg:w-[670px] p-2 border-none text-white ">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-7 bg-red-300 mt-12 w-full lg:w-full text-center rounded-xl">
+                    <h1 class="font-extrabold text-2xl mb-6">Social Media</h1>
+                    <div class="flex items-center justify-center gap-4">
+                        <i class="fa-brands fa-twitter w-8 h-8"></i>
+                        <i class="fa-brands fa-facebook-f w-8 h-8"></i>
+                        <i class="fa-brands fa-instagram w-8 h-8"></i>
+                        <i class="fa-brands fa-github w-8 h-8"></i>
                     </div>
                 </div>
             </div>
@@ -489,16 +536,17 @@
 
     <!-- footer starts here -->
     <footer class="bg-black mt-[60px] py-10">
-        <div class="grid grid-cols-2 lg:grid-cols-4 container mx-auto gap-3">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 container mx-auto">
             <!-- get in touch div -->
             <div class="text-white sm:col-span-2 sm:text-center lg:text-left">
                 <h1 class="font-extrabold text-3xl mb-4">Get In Touch</h1>
-                <p class="font-medium text-base mb-6">Dit amet consectetur. <br> Condimentum adipiscing aliquam turpis.</p>
+                <p class="font-medium text-base mb-6">Dit amet consectetur. <br> Condimentum adipiscing aliquam turpis.
+                </p>
                 <div class="flex items-center mb-4">
                     <i class="fa-regular fa-envelope text-red-600 w-8 h-5"></i>
                     <p class="font-medium text-base">hockeys@support.com</p>
                 </div>
-                <div class="flex items-center">
+                <div class="flex items-center mb-3">
                     <i class="fa-solid fa-phone text-red-600 w-8 h-5"></i>
                     <p class="font-medium text-base">(+62) 123-321-543</p>
                 </div>
